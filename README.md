@@ -4,6 +4,16 @@
 
 [grunt-init]: http://gruntjs.com/project-scaffolding
 
+## Features
+This Grunt-init plugin will create a basic file structure to start any web development project. You will have a very useful features:
+
+- Node server (optional) for static web development process
+- Watch to compile Sass + compass
+- JS lint
+- Build so you can concatenate and minify your files once the development process is done.
+
+Enjoy ;)
+
 ## Installation
 If you haven't already done so, install [grunt-init][].
 
