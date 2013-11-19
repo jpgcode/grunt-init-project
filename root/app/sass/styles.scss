@@ -1,0 +1,48 @@
+//Sass mixins, variables and imports
+@import "compass/reset";
+@import "customMixins";
+
+/*--
+Tags
+--*/
+
+body{
+	font: 12px/14px Helvetica, Arial, sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	margin-bottom: 10px;
+}
+
+
+
+/*--
+Classes
+--*/
+
+.hidden{
+	display: none;
+}
+
+.ir{
+	display: block;
+	text-indent: -99999px;
+}
+
+
+
+/*--
+Layout
+--*/
+
+body{
+	background: #000;
+}
+
+#wrap{
+	@include size(200px 200px);
+}
